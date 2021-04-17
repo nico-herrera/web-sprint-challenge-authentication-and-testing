@@ -76,6 +76,16 @@ These goals may or may not be things you have learned in this module but they bu
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics.
 
 1. Differences between using _sessions_ or _JSON Web Tokens_ for authentication.
+   sessions uses a session ID and JSON web tokens uses the bearer scheme and token itself.
+
 2. What does `bcryptjs` do to help us store passwords in a secure manner?
+   it hashes the password, a one way trip and can be hashed in rounds.
+
 3. How are unit tests different from integration and end-to-end testing?
+   unit tests test an individual block of independent code, integration test connecting operations in the code and end-to-end is the entire project.
+
 4. How does _Test Driven Development_ change the way we write applications and tests?
+   following the color sequence you essentially:
+   write a test that fails,
+   write the minimum code for the test to pass,
+   refactor the code for better efficiency.
